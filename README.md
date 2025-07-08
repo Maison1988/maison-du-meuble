@@ -18,7 +18,7 @@
   <h2>Nos magasins</h2>
   <ul>
     <li><a href="https://maps.app.goo.gl/8uJ6dyKAhL9vZo6w9" target="_blank">Boutique Hammadi</a></li>
-    <li><a href="https://maps.app.goo.gl/37c6zmU3dSkqc82E6" target="_blank">Boutique Tessala El Merdja (Bir Mourad Raïs)</a></li>
+    <li><a href="https://maps.app.goo.gl/37c6zmU3dSkqc82E6" target="_blank">Boutique Tessala El Merdja </a></li>
   </ul>
 </section>
 
