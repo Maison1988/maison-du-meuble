@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Maison du Meuble Abou Bilal</title>
   <style>
     body {
-      margin: 0;
       font-family: sans-serif;
-      background: white;
+      margin: 0;
+      padding: 0;
     }
 
     header {
-      text-align: center;
-      padding: 60px 20px;
-      position: relative;
-      background: url('logo.png') no-repeat center center;
+      background: url('FB_IMG_1752010794101.jpg') no-repeat center center;
       background-size: contain;
+      background-color: #fff;
+      padding: 40px 20px;
+      text-align: center;
     }
 
-    header p, header h1 {
-      background-color: rgba(255, 255, 255, 0.8);
-      display: inline-block;
-      padding: 10px;
-      margin: 10px 0;
+    header h1 {
+      margin-top: 20px;
+      font-size: 28px;
     }
 
     main {
       padding: 20px;
     }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #f5f5f5;
+    section {
+      margin-bottom: 30px;
     }
 
-    button {
-      margin-left: 10px;
-      padding: 5px 10px;
-      cursor: pointer;
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      color: #555;
     }
   </style>
 </head>
@@ -47,49 +54,30 @@
 
   <header>
     <h1>Maison du Meuble Abou Bilal</h1>
-    <p>
-      📞 <a href="tel:+213542823127">اتصل بنا</a> | 
-      💬 <a href="https://wa.me/213542823127" target="_blank">راسلنا على واتساب</a>
-    </p>
+    <p>📞 تواصل معنا على الواتساب: <a href="https://wa.me/213542823127" target="_blank">0542.82.31.27</a></p>
+    <p>💳 الدفع عند الاستلام أو CCP</p>
+    <p><strong>CCP:</strong> 0010190687 Clé: 23</p>
+    <p><strong>RIB:</strong> 00799999001019068723</p>
   </header>
 
   <main>
     <section>
-      <h2>تصفح المنتجات</h2>
-      <a href="https://www.facebook.com/share/19Se27Jcog/" target="_blank">صفحة الفيسبوك</a>
+      <h2>🛒 تصفح المنتجات</h2>
+      <a href="https://www.facebook.com/share/19Se27Jcog/" target="_blank">صفحتنا على الفيسبوك</a>
     </section>
 
     <section>
-      <h2>مواقع المحل</h2>
+      <h2>📍 مواقع المحل</h2>
       <ul>
-        <li><a href="https://maps.app.goo.gl/8uJ6dyKAhL9vZo6w9" target="_blank">محل بيت الأثاث - حمادي</a></li>
-        <li><a href="https://maps.app.goo.gl/37c6zmU3dSkqc82E6" target="_blank">محل تسالة المرجة (بئر توتة)</a></li>
+        <li><a href="https://maps.app.goo.gl/8uJ6dyKAhL9vZo6w9" target="_blank">📍 محل حمادي - بيت الأثاث</a></li>
+        <li><a href="https://maps.app.goo.gl/37c6zmU3dSkqc82E6" target="_blank">📍 محل بئر توتة - تسالة المرجة</a></li>
       </ul>
-    </section>
-
-    <section>
-      <h2>معلومات الدفع CCP</h2>
-      <p>رقم CCP: <strong id="ccp">0010190687 clé 23</strong>
-        <button onclick="copyText('ccp')">📋 نسخ</button>
-      </p>
-      <p>RIB (RIP): <strong id="rip">00799999001019068723</strong>
-        <button onclick="copyText('rip')">📋 نسخ</button>
-      </p>
     </section>
   </main>
 
   <footer>
     <p>© 2025 Maison du Meuble Abou Bilal</p>
   </footer>
-
-  <script>
-    function copyText(id) {
-      const text = document.getElementById(id).textContent;
-      navigator.clipboard.writeText(text).then(() => {
-        alert("تم النسخ: " + text);
-      });
-    }
-  </script>
 
 </body>
 </html>
